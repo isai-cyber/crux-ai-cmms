@@ -9,6 +9,18 @@ para integrarse con agentes de automatización externos.
 Ver `docs/ANALISIS.md` (origen de los requisitos y decisiones de diseño), `docs/PLAN.md`
 (fases y avance), `docs/API.md` (contrato REST) y `docs/MCP.md` (servidor MCP).
 
+## Capturas de pantalla
+
+| | |
+|---|---|
+| **Dashboard** — KPIs, tickets por día/prioridad, progreso de gestión | ![Dashboard](docs/screenshots/dashboard.png) |
+| **ORION** — asistente de chat con triage automático de tickets | ![ORION](docs/screenshots/orion_chat.png) |
+| **Tickets** — listado con prioridad IA, canal de origen y estado | ![Tickets](docs/screenshots/tickets.png) |
+| **Mantenimiento Preventivo** — planes recurrentes que generan órdenes solos | ![Mantenimiento Preventivo](docs/screenshots/mantenimiento_preventivo.png) |
+| **Órdenes de Compra** — reabastecimiento con flujo de aprobación | ![Órdenes de Compra](docs/screenshots/ordenes_compra.png) |
+| **Mapa de Conocimiento 3D** — relaciones entre activos, tickets y runbooks | ![Mapa de Conocimiento 3D](docs/screenshots/mapa_conocimiento_3d.png) |
+| **Login** — whitelabel: cada organización puede subir su propio logo | ![Login](docs/screenshots/login.png) |
+
 ## 1. Requisitos
 
 - Apache 2.4+ con `mod_rewrite` habilitado
