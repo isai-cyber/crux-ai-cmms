@@ -1,4 +1,4 @@
-# Crux A.I — CMMS Industrial con IA (micro SaaS multi-tenant) — CMMS Industrial con IA (micro SaaS multi-tenant)
+# Crux A.I — CMMS Industrial con IA (micro SaaS multi-tenant)
 
 CMMS (gestión de mantenimiento) para activos de automatización industrial, multi-tenant
 (cada organización que se registra en `/registro` tiene sus propios datos aislados),
@@ -157,3 +157,16 @@ datos de referencia del fabricante, no datos operativos de un cliente).
 - CSRF token en todos los formularios de escritura.
 - Salida HTML escapada con `htmlspecialchars` (helper `e()`).
 - Rutas protegidas por rol tanto en el menú como en cada controlador.
+
+## Licencia
+
+Este proyecto se distribuye bajo **doble licencia**:
+
+- **[AGPL-3.0](LICENSE)** — gratis, incluso para uso comercial, siempre que cualquier
+  producto o servicio derivado (incluyendo ofrecerlo como SaaS) también publique su
+  código fuente bajo AGPL-3.0.
+- **[Licencia comercial](LICENSE-COMMERCIAL.md)** — para usar, modificar u operar este
+  software como servicio de pago **sin** la obligación de compartir tu código. Se
+  negocia directamente con el autor.
+
+Si vas a monetizarlo sin compartir tu código, necesitas la licencia comercial.
