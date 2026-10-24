@@ -33,6 +33,7 @@ $navItems = [
     ['href' => '/disenos', 'label' => 'Diseños técnicos IA', 'icon' => 'bi-magic'],
     ['href' => '/conocimiento', 'label' => 'Mapa de conocimiento 3D', 'icon' => 'bi-diagram-3'],
     ['href' => '/reportes', 'label' => 'Reportes', 'icon' => 'bi-bar-chart-line'],
+    ['href' => '/optimizacion-cuantica', 'label' => 'Optimización cuántica', 'icon' => 'bi-cpu'],
     ['href' => '/tokens', 'label' => 'Mis API Keys', 'icon' => 'bi-key'],
 ];
 $navAdmin = [

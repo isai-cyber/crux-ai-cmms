@@ -1,5 +1,26 @@
 # Crux A.I — CMMS Industrial con IA (micro SaaS multi-tenant)
 
+> **Reto QAP10 · NTT DATA · Qiskit Fall Fest Lima.** Este repositorio incluye el módulo
+> **Optimización cuántica** (`/optimizacion-cuantica`) y el motor `quantum/` (Python + Qiskit), que resuelven
+> la instancia MIPLIB `qap10` con métodos clásicos, QAOA e híbridos (LNS + QAOA). Narrativa del track abierto:
+> asignar 10 activos de planta a 10 bahías para reducir los traslados de mantenimiento.
+> Ver [`quantum/README.md`](quantum/README.md) (método) y [`quantum/RESULTADOS.md`](quantum/RESULTADOS.md) (resultados).
+> La página es pública (no requiere base de datos): `php -S 127.0.0.1:8090 -t public public/index.php`.
+
+### Capturas · módulo Optimización cuántica (QAP10)
+
+| | |
+|---|---|
+| **Resumen**: óptimo verificado, mejor híbrido LNS + QAOA, factibilidad y contexto industrial | ![Resumen QAP10](docs/screenshots/qap10_resumen.png) |
+| **Modelo y datos**: verificación de la reconstrucción de F·D y layout óptimo en la rejilla de la planta | ![Modelo y layout](docs/screenshots/qap10_modelo_layout.png) |
+| **Etapa 1 (N=3, N=4)**: enumeración, recocido, QAOA estándar y QAOA-XY frente al muestreo al azar | ![Etapa 1](docs/screenshots/qap10_etapa1.png) |
+| **Penalización λ**: barrido exhaustivo del QUBO y QAOA con λ reducido | ![Lambda](docs/screenshots/qap10_lambda.png) |
+| **Instancia completa (N=10)**: métodos clásicos frente al híbrido LNS + QAOA, con su convergencia | ![Instancia completa](docs/screenshots/qap10_instancia_completa.png) |
+| **Etapa 3: escalamiento** de qubits, memoria statevector y puertas | ![Escalamiento](docs/screenshots/qap10_escalamiento.png) |
+| **Qiskit frente a lo clásico** y conclusiones | ![Conclusiones](docs/screenshots/qap10_conclusiones.png) |
+| **QAOA en vivo** (administradores): ejecuta un circuito en Qiskit Aer desde Crux | ![QAOA en vivo](docs/screenshots/qap10_qaoa_en_vivo.png) |
+| **Vista móvil** | <img src="docs/screenshots/qap10_movil.png" width="260" alt="Vista móvil"> |
+
 CMMS (gestión de mantenimiento) para activos de automatización industrial, multi-tenant
 (cada organización que se registra en `/registro` tiene sus propios datos aislados),
 con clasificación de tickets por IA, un asistente de chat interno llamado **ORION**,

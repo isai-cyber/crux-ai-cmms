@@ -58,6 +58,7 @@ $routes = [
         '/suscripcion/portal' => ['SuscripcionController', 'portal'],
         '/suscripcion/exito' => ['SuscripcionController', 'exito'],
         '/reportes' => ['ReportesController', 'index'],
+        '/optimizacion-cuantica' => ['OptimizacionController', 'index'],
         '/reportes/tickets/exportar' => ['ReportesController', 'exportTickets'],
 
         '/admin/usuarios' => ['UsuariosController', 'index'],
@@ -89,6 +90,7 @@ $routes = [
         '/tickets/{id}/estado' => ['TicketsController', 'updateStatus'],
 
         '/chat/enviar' => ['ChatController', 'enviar'],
+        '/optimizacion-cuantica/ejecutar' => ['OptimizacionController', 'ejecutar'],
 
         '/ordenes/{id}' => ['OrdenesController', 'update'],
 
